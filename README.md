@@ -21,7 +21,7 @@ This project is a simple version of the linux shell made after taking part of th
 It is created using the **C programming Language** and it can do many functionalities that a real shell does.
 
 ## Essential Functionalities of the Simple Shell:
-> Displays a prompt "#╰═┅═━–〈HEZKEN ┈➤" and waits for user input.\
+> Displays a prompt "╰═┅═━–〈hezron_shell╼┈➤$" and waits for user input.\
 > Runs all commands of type "executable program" (ls and /bin/ls).\
 > Handles commands with arguments.\
 > Handles the PATH global variable.\
