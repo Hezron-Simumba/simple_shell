@@ -8,6 +8,7 @@
  *
  * Return: the array element, or NULL if it is not found
  */
+
 char *get_array_element(char **array, char *element_name)
 {
 	while (*array != NULL)

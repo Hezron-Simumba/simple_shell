@@ -128,5 +128,6 @@ int set_alias_value(char *arg, alias *alias_ptr, char *new_value)
 		alias_ptr->next = NULL;
 	}
 	alias_ptr->value = _strdup(new_value);
-	return (TRUE);
+
+    return (TRUE);
 }

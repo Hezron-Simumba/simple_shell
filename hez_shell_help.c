@@ -11,6 +11,7 @@ extern char *shell_name;
  *
  * Return: TRUE if success, FALSE if failure
  */
+
 int command_manager(char **args)
 {
 	char **args_ptr = args;

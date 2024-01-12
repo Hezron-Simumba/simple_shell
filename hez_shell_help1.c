@@ -14,6 +14,7 @@ extern char *shell_name;
  *
  * Return: the new, sanitized buffer
  */
+
 char *input_san(char *old_buf, size_t *old_size)
 {
 	char *new_buf = malloc(*old_size * 3);

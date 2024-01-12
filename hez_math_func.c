@@ -51,7 +51,6 @@ char *_itoa(int n)
 		n %= i_mask;
 		i_mask /= 10;
 	}
-
 	if (is_min == TRUE)
 		n += 1;
 
